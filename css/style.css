@@ -36,7 +36,38 @@ nav#navbar{
 #on{
     text-decoration: underline;
 }
-
+img{
+    height:200px;
+    position: relative;
+}
 #content{
     margin-top: 35px;
+}
+
+#canada .heading{
+    font-weight: bold;
+}
+
+
+#canada{
+    background-color: rgb(255, 0, 51);
+    color:white;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 100px;
+    padding: 20px 20px 20px 20px;
+}
+#canada h2{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.title{
+    padding: 10px 10px 10px 10px;
+}
+#canada p{
+    width: 900px;
+    margin: 0 auto;
 }
