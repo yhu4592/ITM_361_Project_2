@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="index">
   <div id="navbox">
     <nav id = "navbar">
       <ul>
@@ -14,46 +14,81 @@
         <li><a href="resume.html">Resume</a></li>
         <li><a href="canada.html">Canada</a></li>
       </ul>
-  </nav>
+    </nav>
   </div>
-  <div id = "content">
-  <h1>About Me</h1>
-  <img src="images/selfie.jpg" alt="Selfie in Niagra Falls">
-  <h2>Introduction</h2>
-  <p>Hi, welcome to my homepage. Here is a short biography about who I am and what kind of person I am like. I enrolled in my first Computer Science course in high school and decided this is the field I wanted to explore. Now, I am currently a Computer Science major attending IIT and am trying to explore different areas. On my personal life, I love watching movies with friends and I especially love playing video games, though I am not very competitive.</p>
-  <h2>Basic Information</h2>
-  <p>Name: Yongkang Hu</p>
-  <p>Age: 20</p>
-  <p>Ethnicity: Asian</p>
-  <p>Nationality: American</p>
-  <h2>Education</h2>
-  <p>Highschool: Lane Tech</p>
-  <p>University: Illinois Institute of Technology</p>
-  <h2>Interests</h2>
-    <ul>
-      <li>Playing video games</li>
-      <li>Listening to music</li>
-    </ul>
-  <h2>Favorite Games</h2>
-  <img src="images/r6s.jpg" alt="Image of three operators from R6S game.">
-  <h3>Competitive</h3>
-  <ul>
-    <li>Rainbow Six: Siege</li>
-    <li>Valorant</li>
-  </ul>
-  <h3>Other</h3>
-  <ul>
-    <li>Final Fantasy XIV</li>
-    <li>Monster Hunter series</li>
-  </ul>
-  <h2>Favorite Movies</h2>
-  <img src="images/kingsman.jpg" alt="Promotional picture for Kingsman movie.">
-  <ul>
-    <li>Kingsman</li>
-    <li>Spider-Man: Into the Spiderverse</li>
-  </ul>
-  <h2>Closing Note...</h2>
-  <p>I hope you enjoyed this short biography!</p>
+  <h1 id = "in_heading">About Me</h1>
+  <div id="top">
+    <img id="selfie" src="images/selfie.jpg" alt="Selfie in Niagra Falls">
+    <div id="intro">
+      <h2>Introduction</h2>
+      <p>Hi, welcome to my homepage. Here is a short biography about who I am and what kind of person I am like. I enrolled in my first Computer Science course in high school and decided this is the field I wanted to explore. Now, I am currently a Computer Science major attending IIT and am trying to explore different areas. On my personal life, I love watching movies with friends and I especially love playing video games, though I am not very competitive.</p>
+   </div>
+  </div>
+  
+  
+  <div id="info"> 
+    <h2>Basic Information</h2>
+    <table id="my_info">
+      <tr>
+        <td>Name</td>
+        <td>Yongkang Hu</td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Ethnicity</td>
+        <td>Asian</td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td>American</td>
+      </tr>
+      <tr>
+        <td>Highschool</td>
+        <td>Lane Tech</td>
+      </tr>
+      <tr>
+        <td>University</td>
+        <td>IIT</td>
+      </tr>
+    </table>
+  </div>
+
+  
+  <div id="in_content">
+    <h2 id="interest_title">Interests</h2>
+    <div id="left">
+      <h2>Favorite Games</h2>
+      <img src="images/r6s.jpg" alt="Image of three operators from R6S game.">
+      <ul>
+        <li>Rainbow Six: Siege</li>
+        <li>Valorant</li>
+      </ul>
+      <ul>
+        <li>Final Fantasy XIV</li>
+        <li>Monster Hunter series</li>
+      </ul>
+    </div>
+    <div id="right">
+      <h2>Favorite Movies</h2>
+      <img src="images/kingsman.jpg" alt="Promotional picture for Kingsman movie.">
+      <ul>
+        <li>Kingsman</li>
+        <li>Spider-Man: Into the Spiderverse</li>
+        <li>Avengers</li>
+        <li>Marvel's Spiderman</li>
+      </ul>
+    </div>
+  </div>
+  <div id="end">
+    <h2>Closing Note...</h2>
+    <p>I hope you enjoyed this short biography!</p>
+  </div>
+  
+  
+  
 </div>
 </body>
 </html>

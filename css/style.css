@@ -5,14 +5,12 @@ div#navbox{
 }
 nav#navbar{
   display: block;
-  
-  
 }
 
 #navbar ul{background-color: rgb(65, 65, 65);
-    position: absolute;
-    top: 0;
-    list-style-type: none;
+  position: absolute;
+  top: 0;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -40,7 +38,7 @@ img{
     height:200px;
     position: relative;
 }
-#content{
+#ca_content{
     margin-top: 35px;
 }
 
@@ -70,4 +68,74 @@ h1{
 #canada p{
     width: 900px;
     margin: 0 auto;
+}
+
+
+#selfie{
+    float:left;
+    display: inline;
+}
+#intro{
+    float:left;
+    width:50%;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+#info{
+    display:block;
+    clear:left;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+#my_info{
+    margin: 0 auto;
+}
+h2{
+    font-weight: bold;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+#top{
+    width:50%;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+#left{
+    width:50%;
+    float: left;
+    text-align: center;
+    background: lightcyan;
+}
+#right{
+    float:right; 
+    width: 50%;
+    list-style-type: initial;
+    text-align: center;
+    background-color:lightcyan;
+}
+
+#in_heading{
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    background: lightcyan;
+    margin: 0 auto;
+}
+#in_content{
+    background-color:lightcyan;
+}
+div#top{
+    margin: 0 auto;
+}
+
+#index{
+    background: lavender;
+}
+#end, #interest_title{
+    text-align: center;
+    width: 100%;
 }
