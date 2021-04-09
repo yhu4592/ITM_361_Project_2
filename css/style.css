@@ -86,6 +86,7 @@ h1{
   height: auto;
   width: 80%;
   margin: 0 auto;
+  background-color:rgb(166, 248, 248)
 }
 
 #about_content h2{
@@ -101,18 +102,17 @@ h1{
 #intro_box{
   float:left;
   width: 40%;
+  height: 100%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 265px;
   text-align: center;
-  background-color:rgb(166, 248, 248);
 }
 
 #interests_box{
   width:50%;
   float:left;
   overflow: hidden;
-  background-color: rgb(166, 248, 248);
 }
 
 #games_box{
