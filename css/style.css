@@ -44,7 +44,14 @@ body{
 
 /* Canada*/
 #ca_content{
-  margin-top: 35px;
+  margin: 0 auto;
+  width: 45%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(175, 255, 255);
+  box-shadow: 10px 10px rgb(87, 87, 87);
+  margin-bottom: 5%;
+  border: 1px solid black;
 }
 #canada .heading{
   font-weight: bold;
@@ -54,9 +61,7 @@ body{
   color:black;
   text-align: center;
 }
-#ca_heading{
-  margin-top:50px;
-}
+
 h1{
   font-size: 100px;
   padding: 20px 20px 20px 20px;
@@ -162,6 +167,7 @@ h1{
 #resume_content{
   width: 960px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #resume_content h2{
